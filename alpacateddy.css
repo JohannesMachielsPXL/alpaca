@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+header nav main footer figure{
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 40px;
+    font-family: 'Schoolbell', cursive;
+}
+
+h2 {
+    font-family: 'Schoolbell', cursive;
+}
+header {
+    background-color: #3386A7;
+    width: 100%;
+    text-align: center;
+    color: #1F272A;
+}
+
+#cursive {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin: 0;
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+    color: #F1F1F1;
+    background-color: #343A40;
+}
+
+ul {
+    margin: 0;
+}
+
+li{
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+}
+
+li:hover{
+    color: #1F272A;
+    background-color: #F1F1F1;
+}
+main{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+figure{
+    width: 100%;
+    margin: 0;
+}
+
+article {
+    flex: 60%;
+}
+
+aside {
+    flex: 20%;
+    background-color: #F1F1F1;
+}
+
+footer {
+    width: 100%;
+    background-color: #343A40;
+    color: #F1F1F1;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
