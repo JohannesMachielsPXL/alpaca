@@ -23,10 +23,14 @@ h2 {
     font-family: 'Schoolbell', cursive;
 }
 header {
-    background-color: #3386A7;
+    background-color: #76bad5;
     width: 100%;
     text-align: center;
-    color: #1F272A;
+    color: #343A40;
+}
+
+#colorMe {
+	color:#3386A7;
 }
 
 #cursive {
@@ -59,23 +63,29 @@ li:hover{
 }
 main{
     display: flex;
-    width: 98%;
+    width: 100%;
     margin: auto;
     flex-wrap: wrap;
 }
 
 figure{
-    width: 100%;
-    margin: 0;
+	margin: 0;
 }
 
 article {
-    flex: 60%;
+    flex: 75%;
+	padding: 25px;
+}
+
+#hidden{
+	display: none;
+	width: 100%;
 }
 
 aside {
-    flex: 20%;
+    flex: 25%;
     background-color: #F1F1F1;
+	padding: 25px;
 }
 
 footer {
